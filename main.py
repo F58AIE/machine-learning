@@ -14,3 +14,10 @@ print(float)
 # boolean true or false
 bool = True
 print(bool)
+
+
+name = "F58AIE"
+age = 30
+score = 99.9
+engineer = True
+print("My name is:" + name  + " and my age is: " + str(age) + " and my score is: " + str(score) + " and I am an engineer: " + str(engineer))
