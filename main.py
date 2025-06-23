@@ -119,11 +119,6 @@
 # else:
 #     print("You are not " + x + ", you are " + name + "!")
 
-# # not
-# if not 2 == 3:
-#     print("2 is not equal to 3")
-# # This code checks if 2 is not equal to 3 and prints a message if the condition is true.
-
 
 
 
@@ -132,11 +127,11 @@ score = input("Enter your score: ")
 score = int(score)  # Convert the input to an integer
 absence = input("Enter your absence: ")
 absence = int(absence)  # Convert the input to an integer
-if score >= 90 and absence <= 0:
+if score >= 90 and absence <= 0 or score >= 95 and absence <= 1:
     print("You excelled in the exam!")
-elif score >= 80 and absence <= 2:
+elif score >= 80 and absence <= 2 or score >= 85 and absence <= 1:
     print("You are good!")
-elif score >= 70 and absence <= 4:
+elif score >= 70 and absence <= 4 or score >= 75 and absence <= 3: 
     print("You are average!")
 else:
     print("You need to work harder!")   
