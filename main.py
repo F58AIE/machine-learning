@@ -54,7 +54,13 @@
 # # for x in range from 0 to 100 because the range function starts from 0 by default
 # # The step value of 2 means it will print every second number (even numbers only).
 
-name = "Casey Harper"
-for x in name:
-    print(x)
-# This will print each character in the string "name" on a new line.
+# name = "Casey Harper"
+# for x in name:
+#     print(x)
+# # This will print each character in the string "name" on a new line.
+
+
+names = ["Casey Harper", "John Doe", "Jane Smith"]
+for name in names:
+    print(name)
+# This will print each name in the list "names" on a new line.
