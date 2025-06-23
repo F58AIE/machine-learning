@@ -60,7 +60,16 @@
 # # This will print each character in the string "name" on a new line.
 
 
-names = ["Casey Harper", "John Doe", "Jane Smith"]
-for name in names:
-    print(name)
-# This will print each name in the list "names" on a new line.
+# names = ["Casey Harper", "John Doe", "Jane Smith"]
+# for name in names:
+#     print(name)
+# # This will print each name in the list "names" on a new line.
+
+cars = ["Toyota", "Honda", "Ford"]
+adjectives = ["fast", "reliable", "affordable"]
+for car in cars:
+    for adjective in adjectives:
+        print(car + " is " + adjective)
+# This will print each car with each adjective, resulting in combinations like "Toyota is fast",
+# "Toyota is reliable", etc. It will iterate through each car and for each car,
+# it will iterate through all the adjectives, printing all combinations.    
