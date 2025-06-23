@@ -30,10 +30,11 @@ print(num1 + num2)
 print(num1 * num2)
 print(num1 / num2)
 print(num1 - num2) 
-
+print(num1 ** num2)  # Exponentiation operation
 num5 = 15
 num4 = "432"
 print(num5 + int(num4))  # Convert string to integer before addition
 print(num5 * int(num4))  # Convert string to integer before multiplication
 print(num5 / int(num4))  # Convert string to integer before division
 print(num5 - int(num4))  # Convert string to integer before subtraction 
+print(num5 ** int(num4))  # Convert string to integer before exponentiation
