@@ -23,7 +23,11 @@ engineer = True
 print("My name is:" + name  + " and my age is: " + str(age) + " and my score is: " + str(score) + " and I am an engineer: " + str(engineer))
 
 
-
+# * / + - 
 num1 = 12
 num2 = 93
 print(num1 + num2)
+print(num1 * num2)
+print(num1 / num2)
+print(num1 - num2) 
+
