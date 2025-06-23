@@ -65,11 +65,26 @@
 #     print(name)
 # # This will print each name in the list "names" on a new line.
 
-cars = ["Toyota", "Honda", "Ford"]
-adjectives = ["fast", "reliable", "affordable"]
-for car in cars:
-    for adjective in adjectives:
-        print(car + " is " + adjective)
-# This will print each car with each adjective, resulting in combinations like "Toyota is fast",
-# "Toyota is reliable", etc. It will iterate through each car and for each car,
-# it will iterate through all the adjectives, printing all combinations.    
+# cars = ["Toyota", "Honda", "Ford"]
+# adjectives = ["fast", "reliable", "affordable"]
+# for car in cars:
+#     for adjective in adjectives:
+#         print(car + " is " + adjective)
+# # This will print each car with each adjective, resulting in combinations like "Toyota is fast",
+# # "Toyota is reliable", etc. It will iterate through each car and for each car,
+# # it will iterate through all the adjectives, printing all combinations.    
+
+
+
+while True:
+    name = input("Enter your name (or type 'exit' to quit): ")
+    if name.lower() == 'exit':
+        print("Exiting the program.")
+        break
+    else:
+        print("Hello, " + name + "!")
+# This code will keep asking for the user's name until they type 'exit'.
+# It uses a while loop to continuously prompt for input and checks if the input is 'exit'.
+# If it is, the program will print a message and break out of the loop, effectively ending the program.
+# If the input is anything else, it will greet the user with their name.
+# The `lower()` method is used to make the check case-insensitive, so 'Exit', 'EXIT', etc., will also work to exit the loop. 
