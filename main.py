@@ -49,7 +49,12 @@
 # print(int(num1) + int(num2)) # Convert
 
 
-for x in range(0, 101 , 2):
-    print("Hello World " + str(x))
-# for x in range from 0 to 100 because the range function starts from 0 by default
-# The step value of 2 means it will print every second number (even numbers only).
+# for x in range(0, 101 , 2):
+#     print("Hello World " + str(x))
+# # for x in range from 0 to 100 because the range function starts from 0 by default
+# # The step value of 2 means it will print every second number (even numbers only).
+
+name = "Casey Harper"
+for x in name:
+    print(x)
+# This will print each character in the string "name" on a new line.
