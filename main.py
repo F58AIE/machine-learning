@@ -40,4 +40,5 @@
 # print(num5 ** int(num4))  # Convert string to integer before exponentiation
 
 name = input ("What is your name? ")
-print("Hello " + name + "!")
+age = input("what is your age? ")
+print("Your name is: " + name + " and your age is: " + age)
