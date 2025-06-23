@@ -42,3 +42,8 @@
 name = input ("What is your name? ")
 age = input("what is your age? ")
 print("Your name is: " + name + " and your age is: " + age)
+
+
+num1 = input ("Enter first number: ")
+num2 = input("Enter second number: ")
+print(int(num1) + int(num2)) # Convert
