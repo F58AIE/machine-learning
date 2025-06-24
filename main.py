@@ -136,13 +136,32 @@
 # else:
 #     print("You need to work harder!")   
 
-class Person:
-    def __init__(self, name, age):
+
+
+
+# class Person:
+#     def __init__(self, name, age):
+#         self.name = name
+#         self.age = age
+
+#     def display_info(self):
+#         print(f"Name: {self.name}, Age: {self.age}")
+        
+# person_john = Person("John", 30)
+# person_john.display_info()
+
+
+
+
+
+
+
+class Animal:
+    def __init__(self, name, age,):
         self.name = name
         self.age = age
-
     def display_info(self):
-        print(f"Name: {self.name}, Age: {self.age}")
-        
-person_john = Person("John", 30)
-person_john.display_info()
+        print(f"Name: {self.name}, Age: {self.age}")   
+
+animal_cat = Animal("catty", 2)
+animal_cat.display_info()
