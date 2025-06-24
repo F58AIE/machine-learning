@@ -1,7 +1,15 @@
-import pandas as pd
+# pandas = excel inside python
+#DataFram = Data Table
 
+import pandas as pd
 data = pd.read_csv('big_students.csv')
-print(data.head())
+
+data_cleaned = data.dropna()  # remove rows with null values
+data_cleaned = data.drop_duplicates() # remove duplicate rows
+print(data.isnull().sum()) # we know how many null values are in each column
+
+
+
 
 
 # print(len(data)) to know how many rows are in the dataset
